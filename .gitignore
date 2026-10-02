@@ -35,3 +35,8 @@ K4-DAY13-*/
 !data/ATTRIBUTION.md
 !data/LICENSE.txt
 student-bundles/
+
+# Local one-off report preparation scripts for the individual submission.
+/CHUAN-BI-BAO-CAO.py
+/CAP-NHAT-KET-QUA.py
+/HOAN-THIEN-PHAN-THI-NGHIEM.py

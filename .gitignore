@@ -40,3 +40,8 @@ student-bundles/
 /CHUAN-BI-BAO-CAO.py
 /CAP-NHAT-KET-QUA.py
 /HOAN-THIEN-PHAN-THI-NGHIEM.py
+
+# Authorized individual submission: two Markdown files.
+!report/K4-DAY13-NguyenBinhDuong/
+!report/K4-DAY13-NguyenBinhDuong/TEAMMATES.md
+!report/K4-DAY13-NguyenBinhDuong/PRE-LABEL-REPORT.md

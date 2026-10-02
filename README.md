@@ -2,6 +2,8 @@
 
 ## Tài liệu bổ sung cho phiên bản bài cá nhân
 
+Bài nộp của **Nguyễn Bình Dương — 2A202602170/lab304**, thực hiện ngày **02/10/2026**, gồm hai file Markdown: [TEAMMATES.md](report/K4-DAY13-NguyenBinhDuong/TEAMMATES.md) và [PRE-LABEL-REPORT.md](report/K4-DAY13-NguyenBinhDuong/PRE-LABEL-REPORT.md). Thư mục `report/K4-DAY13-NguyenBinhDuong/` chứa bản đã điền; bài chỉ có một người và ghi rõ hỗ trợ Codex. Thí nghiệm KITTI đã hoàn tất, phần CVAT/portal chưa thực hiện. Output gốc giữ trên máy.
+
 Nếu giảng viên giao bài cá nhân, dùng [mẫu báo cáo cá nhân trống](BAO-CAO-CA-NHAN.md). Một người thực hiện và ghi rõ mức hỗ trợ thực tế; yêu cầu nguồn/QC trên portal vẫn theo phạm vi giảng viên giao.
 
 Trên Windows, giải nén nguyên gói Student amd64 vào `student-bundles/student-prelabel-amd64/`, mở Docker Desktop ở chế độ Linux containers, chuẩn bị Python 3.10+ có lệnh `python`, rồi chạy từ repo root:
@@ -10,7 +12,7 @@ Trên Windows, giải nén nguyên gói Student amd64 vào `student-bundles/stud
 .\CHAY-THI-NGHIEM-CA-NHAN.ps1
 ```
 
-Script chạy đủ A/B/C và ca QC, lưu output riêng vào `K4-DAY13-ca-nhan/ket-qua-01/`. Thư mục output phải mới hoặc trống. Đọc `smoke.json`, CSV, JSON và ảnh để điền báo cáo; không sửa file trong gói đã có manifest. Nếu đã có kết quả, giữ nguyên chúng và dùng runner với thư mục output mới khi cần chạy lại. Gói Docker, output và báo cáo đã điền được giữ ngoài Git; chỉ mẫu trống và script chạy được chia sẻ trong repo.
+Script chạy đủ A/B/C và ca QC, lưu output riêng vào `K4-DAY13-ca-nhan/ket-qua-01/`. Thư mục output phải mới hoặc trống. Đọc `smoke.json`, CSV, JSON và ảnh để điền báo cáo; không sửa file trong gói đã có manifest. Nếu đã có kết quả, giữ nguyên chúng và dùng runner với thư mục output mới khi cần chạy lại. Gói Docker và output được giữ ngoài Git. Hai file báo cáo đã điền trong report/K4-DAY13-NguyenBinhDuong/ được đăng theo yêu cầu bài nộp cá nhân; bản làm việc local vẫn giữ riêng.
 
 Hôm nay bạn kiểm tra **pre-label từ PointPillars pretrained**, sửa cuboid 3D bằng bằng chứng và review bài của người khác. Bạn cần nhận ra khi nào lỗi nằm ở cả pipeline, khi nào chỉ một hộp cần chỉnh. Hộp model vẽ sẵn là gợi ý để bắt đầu, không phải đáp án.
 
